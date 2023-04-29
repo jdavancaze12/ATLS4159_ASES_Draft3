@@ -1,0 +1,80 @@
+@media (min-width: 768px) and (max-width: 992px){
+	.fold-3 .carousel-wrapper{
+		width: 600px;
+		margin: 0px auto;
+	}
+	.container{
+		width: 100%;
+	}
+	.top-header-wrapper{
+		text-align: left;
+	}
+	.top-header-wrapper .social-list{
+		padding-left: 15px;
+	}
+	header .toggle-click{
+		width: 135px;
+	}
+	.header-menu-wrapper{
+		position: relative !important;
+	}
+	.tablet-pb-0{
+		padding-bottom: 0px !important;
+	}
+	.header_menu{
+		text-align: right;
+	}
+	.carousel-caption{
+		left: 15px !important;
+	}
+	.header_menu li ul.sub-menu{
+		text-align: left;
+	}
+
+	.callout-2 h5,
+	.callout-3 h5{
+		font-size: 30px;
+	}
+	.callout-2 p,
+	.callout-3 p{
+		font-size: 20px;
+	}
+
+	aside{
+		padding-right: 15px;
+	}
+	.sidebar-fold{
+		padding: 15px;
+	}
+	.btn-membership,
+	.btn-donate{
+		font-size: 12px !important;
+		padding-top: 15px;
+		padding-bottom: 15px;
+		width: initial;
+	}
+	/* FOOTER */
+	.footer-item-1{
+		width: 100%;
+		display: block;
+		text-align: center;
+		border-right: 0px;
+	}
+	.footer-item-1 img{
+		margin: 0px auto;
+	}
+	/* OUR TEAM */
+	.team-list li.pull-right{
+		float: none !important;
+		line-height: initial;
+		margin-top: 4px;
+		margin-bottom: 4px;
+	}
+	/* CONFERENCE */
+	.conference-menu .search-wrapper-menu form.search-form input{
+	    margin-top: 35px;
+	    position: absolute;
+	    width: 300px;
+	    right: 0;
+	}
+}

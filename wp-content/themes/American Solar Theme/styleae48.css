@@ -1,0 +1,855 @@
+/*
+
+Theme Name: American Solar Theme
+
+Author: | Kevin Carolino
+
+Description: Responsive theme for American Solar
+
+Version: 1.1
+
+*/
+
+
+
+/*#############################################
+
+* SPACING
+
+##############################################*/
+
+	/* PADDING */
+
+	.pt-0{
+
+		padding-top: 0em;
+
+	}
+
+	.pb-0{
+
+		padding-bottom: 0em;
+
+	}
+
+	.pl-0{
+
+		padding-left: 0em;
+
+	}
+
+	.pr-0{
+
+		padding-right: 0em;
+
+	}
+
+	.py-0{
+
+		padding-top: 0px;
+
+		padding-bottom: 0px;
+
+	}
+
+	.px-0{
+
+		padding-left: 0px;
+
+		padding-right: 0px;
+
+	}
+
+	.px-1{
+
+		padding-left: 1em;
+
+		padding-right: 1em;
+
+	}
+
+	.py-default{
+
+		padding-top: 2em;
+
+		padding-bottom: 2em;
+
+	}
+
+	.py-1{
+
+		padding-top: 1em;
+
+		padding-bottom: 1em;
+
+	}
+
+	.py-2{
+
+		padding-top: 2em;
+
+		padding-bottom: 2em;
+
+	}
+
+	.py-3{
+
+		padding-top: 3em;
+
+		padding-bottom: 3em;
+
+	}
+
+	.py-4{
+
+		padding-top: 4em;
+
+		padding-bottom: 4em;
+
+	}
+
+	.pt-1{
+
+		padding-top: 1em;
+
+	}
+
+	.pt-2{
+
+		padding-top: 2em;	
+
+	}
+
+	.pt-3{
+
+		padding-top: 3em;
+
+	}
+
+	.pb-1{
+
+		padding-bottom: 1em;
+
+	}
+
+	.pb-2{
+
+		padding-bottom: 2em;
+
+	}
+
+	/* MARGIN */
+
+	.mt-0{
+
+		margin-top: 0em;
+
+	}
+
+	.mt-1{
+
+		margin-top: 1em;
+
+	}
+
+	.mb-0{
+
+		margin-bottom: 0em;
+
+	}
+
+	.mb-1{
+
+		margin-bottom: 1em;
+
+	}
+
+	.ml-0{
+
+		margin-left: 0em;
+
+	}
+
+	.mr-0{
+
+		margin-right: 0em;
+
+	}
+
+	.my-0{
+
+		margin-top: 0px;
+
+		margin-bottom: 0px;
+
+	}
+
+	.my-default{
+
+		margin-top: 2em;
+
+		margin-bottom: 2em;
+
+	}
+
+	.my-1{
+
+		margin-top: 1em;
+
+		margin-bottom: 20px;
+
+	}
+
+	.my-3{
+
+		margin-top: 3em;
+
+		margin-bottom: 3em;
+
+	}
+
+	.m-0{
+
+		margin: 0px;
+
+	}
+
+	.mx-0{
+
+		margin-left: 0px;
+
+		margin-right: 0px;
+
+	}
+
+	.mx-auto{
+
+		margin: 0px auto;
+
+	}
+
+	.my-default{
+
+		margin-top: 2em;
+
+		margin-bottom: 2em;
+
+	}
+
+	/* ABSOLUTE */
+
+	.r-0{
+
+		right: 0 !important;
+
+	}
+
+/*#############################################
+
+* END OF SPACING
+
+##############################################*/
+
+
+
+/*#############################################
+
+* RESETS
+
+##############################################*/
+
+h1,h2,h3,h4{
+
+	margin: 0px;
+
+}
+
+a:focus, button:focus {
+
+	outline: none;
+
+}
+
+a:hover,
+
+a:focus	{
+
+	text-decoration: none;
+
+}
+
+a,button{
+
+	-webkit-transition: all 300ms ease 0s;
+
+    -moz-transition: all 300ms ease 0s;
+
+    -o-transition: all 300ms ease 0s;
+
+	transition: all 300ms ease 0s;
+
+	cursor: pointer;
+
+}
+
+ul{
+
+	list-style: none;
+
+	padding-left: 0px;
+
+	margin-bottom: 0px;
+
+}
+
+input{
+
+	outline: none;
+
+}
+
+p{
+
+	font: 15px RalewayR;
+
+	line-height: 20px;
+
+}
+
+strong{
+
+	font-family: RalewayB;
+
+}
+
+/*#############################################
+
+* END of RESETS
+
+##############################################*/
+
+
+
+/*#############################################
+
+* GENERIC CLASS
+
+##############################################*/
+
+.cover-bg{
+
+	-webkit-background-size: cover !important;
+
+	-moz-background-size: cover !important;
+
+	-o-background-size: cover !important;
+
+	background-size: cover !important;
+
+}
+
+.container {
+
+	max-width: 1140px !important;
+
+	position: relative;
+
+	padding-right: 0px;
+
+	padding-left: 0px;
+
+}
+
+.f-none{
+
+	float: none;
+
+}
+
+.d-block{
+
+	display: block;
+
+}
+
+.d-inline-block{
+
+	display: inline-block;
+
+}
+
+.v-middle{
+
+	vertical-align: middle;
+
+}
+
+.v-bottom{
+
+	vertical-align: bottom;
+
+}
+
+.font-color-orange{
+
+	color: #ee5b2f;
+
+}
+
+.v-top{
+
+	vertical-align: top;
+
+}
+
+.btn,
+
+.btn a{
+
+	color: #FFF;
+
+	font: 12px RalewayB;
+
+	border-radius: 0px;
+
+	-webkit-transition: all 300ms ease 0s;
+
+    -moz-transition: all 300ms ease 0s;
+
+    -o-transition: all 300ms ease 0s;
+
+	transition: all 300ms ease 0s;
+
+}
+
+.btn:hover,
+
+.btn.focus,
+
+.btn:focus,
+
+.btn:hover,
+
+.btn a:hover{
+
+	color: #FFF;
+
+}
+
+.btn-black{
+
+	background: #414042;
+
+}
+
+.btn-black:hover{
+
+	background: #000000;
+
+}
+
+.btn-teal{
+
+	background: #57b1b5;
+
+}
+
+.btn-teal:hover{
+
+	background: #389499;
+
+}
+
+.btn-orange{
+
+	background: #ef5b2f;
+
+}
+
+.btn-orange:hover{
+
+	background: #d73e13;
+
+}
+
+.btn-white{
+
+	background: #fff;
+
+	color: #414042;
+
+	font: 25px RalewayB;
+
+	-webkit-border-radius: 5px;
+
+	-moz-border-radius: 5px;
+
+	border-radius: 5px;
+
+}
+
+.btn-white:hover{
+
+	color: #fff;
+
+	background: #414042;
+
+}
+
+.btn-radius{
+
+	-webkit-border-radius: 5px;
+
+	-moz-border-radius: 5px;
+
+	border-radius: 5px;
+
+	height: 34px;
+
+}
+
+.input-default{
+
+	background: none;
+
+	font: 15px RalewayR;
+
+	border: 1px #999 solid;
+
+	color: #999;
+
+	border-radius: 0px;
+
+}
+
+.border-bottom{
+
+	border-bottom: 2px #a3a599 solid;
+
+}
+
+.border-right{
+
+	border-right: 2px #fff solid;
+
+}
+
+.w-100{
+
+	width: 100%;
+
+}
+
+.h-100{
+
+	height: 100%;
+
+}
+
+.toggle-child{
+
+	display: none;
+
+	z-index: 50;
+
+}
+
+.relative{
+
+	position: relative;
+
+}
+
+.relative-z-index-50{
+
+	position: relative;
+
+	z-index: 50;
+
+}
+
+.absolute{
+
+	position: absolute;
+
+}
+
+.shadow-bottom{
+
+	-webkit-box-shadow: 0px 5px 10px 0px rgba(0,0,0,0.35);
+
+	-moz-box-shadow: 0px 5px 10px 0px rgba(0,0,0,0.35);
+
+	box-shadow: 0px 5px 10px 0px rgba(0,0,0,0.35);
+
+}
+
+/* CONTACT FORM 7 VALIDATION */
+
+.inpt input.wpcf7-submit {
+
+  margin: 15px 0;
+
+  float: right;
+
+  height: 35px;
+
+  width: 110px;
+
+  background: #999999;
+
+  color: #fff;
+
+  border: 0;
+
+  font-family: 'OpenSans', 'Arial', sans-serif, !important;
+
+  text-transform: uppercase;
+
+  -webkit-border-radius: 5px;
+
+  -moz-border-radius: 5px;
+
+  border-radius: 5px;
+
+}
+
+.inpt input.wpcf7-submit:hover,
+
+.inpt input.wpcf7-submit:focus {
+
+  color: #eee;
+
+}
+
+.inpt input.wpcf7-submit:active,
+
+.inpt input.wpcf7-submit.active {
+
+  -webkit-box-shadow: inset 0px 2px 13px 2px rgba(99,99,99,.5);
+
+  -moz-box-shadow: inset 0px 2px 13px 2px rgba(99,99,99,.5);
+
+  box-shadow: inset 0px 2px 13px 2px rgba(99,99,99,.5);
+
+}
+
+/*validation errors occured*/
+
+.wpcf7-response-output {
+
+  margin-top: 10px !important;
+
+  color: #930a1e !important;
+
+  font-size: 13px !important;
+
+  font-family: 'OpenSans', 'Arial', sans-serif, !important;
+
+  background-color: #f3b5b5 !important;
+
+  border-top: 2px solid #de7f7f !important;
+
+  border-radius: 4px !important;
+
+  -webkit-border-radius: 4px !important;
+
+  -moz-border-radius: 4px !important;
+
+  padding: 7px;
+
+  font-weight: bold !important; 
+
+  text-align: center !important;
+
+  width: 100% !important;
+
+  margin-left: -1px !important;
+
+  border-right: none !important;
+
+  border-left: none !important;
+
+  border-bottom: none !important;
+
+}
+
+span.wpcf7-not-valid-tip-no-ajax {
+
+  padding-top: 3px !important;
+
+  color: #ed3c3c !important;
+
+}
+
+input.wpcf7-not-valid {
+
+  -webkit-box-shadow: 0 1px 1px #d77575 inset, 0 0 8px #d77575 !important;
+
+  -moz-box-shadow: 0 1px 1px #d77575 inset, 0 0 8px #d77575 !important;
+
+  box-shadow: 0 1px 1px #d77575 inset, 0 0 8px #d77575 !important;
+
+}
+
+textarea.wpcf7-not-valid {
+
+  -webkit-box-shadow: 0 1px 1px #d77575 inset, 0 0 8px #d77575 !important;
+
+  -moz-box-shadow: 0 1px 1px #d77575 inset, 0 0 8px #d77575 !important;
+
+  box-shadow: 0 1px 1px #d77575 inset, 0 0 8px #d77575 !important;
+
+}
+
+.wpcf7-not-valid-tip {
+
+  color: #930a1e !important;
+
+  border: none !important;
+
+  background-color: transparent !important;
+
+  background: transparent !important;
+
+  margin-top: 10px;
+
+  padding: 0 !important;
+
+  font-size: 11px !important;
+
+}
+
+/*message sent successfully*/
+
+.wpcf7-mail-sent-ok {
+
+  margin-top: 10px !important;
+
+  color: #406d2d !important;
+
+  font-size: 13px !important;
+
+  font-family: 'OpenSans', 'Arial', sans-serif, !important;
+
+  background-color: #dff0d8 !important;
+
+  border-top: 2px solid #cedec8 !important;
+
+  border-radius: 4px !important;
+
+  -webkit-border-radius: 4px !important;
+
+  -moz-border-radius: 4px !important;
+
+  padding: 7px;
+
+  font-weight: bold !important; 
+
+  text-align: center !important;
+
+  width: 100% !important;
+
+  margin-left: -1px !important;
+
+}
+
+.wpcf7-validation-errors {
+
+	border: 1px solid red;
+
+}
+
+
+
+
+
+img.alignright { float: right; margin: 0 0 1em 1em; }
+
+img.alignleft { float: left; margin: 0 1em 1em 0; }
+
+img.aligncenter { display: block; margin-left: auto; margin-right: auto; }
+
+.alignright { float: right; }
+
+.alignleft { float: left; }
+
+.aligncenter { display: block; margin-left: auto; margin-right: auto; }
+
+
+
+figcaption {
+
+	    display: block;
+
+    font-size: 13px;
+
+    line-height: 17px;
+
+    font-style: italic;
+
+    color: #666666;}
+
+	
+
+	.fold-carousel-top {
+
+		margin-top:-3em;
+
+	}
+
+	
+
+	.recentnewsinfo-content img {
+
+		border-radius:5px;
+
+		-moz-border-radius:5px;
+
+		-webkit-border-radius:5px;
+
+		width:80px;
+
+		height:66px;
+
+	}
+
+	.wcs-modal h2 {
+
+    margin: 0 0 20px;
+
+    color: #ef5b2f;
+
+	}
+
+.sidebarcolumn {
+  float: left;
+  width: 50%;
+  padding: 5px;
+}
+
+/* Clear floats after image containers */
+.sidebarrow::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.sidebarcolumnsp {
+  flex: 50%;
+  padding: 5px;
+}
+
+/* Clear floats after image containers */
+.sidebarrowsp {
+  display: flex;
+}
+
+	
+
+/*#############################################
+
+* END OF GENERIC CLASS
+
+##############################################
+

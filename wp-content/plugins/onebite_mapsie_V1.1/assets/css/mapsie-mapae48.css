@@ -1,0 +1,235 @@
+/*basic styling*/
+#mapsie {
+	font-family: 'Helvetica', Arial, sans-serif;
+	font-size:initial;
+}
+#mapsie a{
+	color: #4a4a4a;
+	text-decoration: none;
+}
+#mapsie p{
+	font-size: 12px;
+}
+#mapsie ul{
+	list-style-type: none;
+}
+#mapsie h1,h2,h3 {
+	line-height:initial;
+	font-family: 'Helvetica', Arial, sans-serif;
+	font-size:initial;
+}
+#mapsie h1 {
+	font-size:20px;
+	margin:0;
+}
+#mapsie h2 {
+	font-size:18px;
+}
+#mapsie h3 {
+	font-size:14px;
+	margin:0;
+	padding:0;
+	font-weight:bold;
+}
+/* map */
+#mapsie.item{
+    height: 100% !important;
+    overflow: hidden !important;
+    border: 0!important;
+}
+#mapsie .top-controls,
+#mapsie .bottom-controls {
+	float:left;
+	width:100%;
+}
+#mapsie .top-controls input, 
+#mapsie .top-controls label,
+#mapsie .top-controls button {
+	margin:2px 0px;
+}
+#mapsie .top-controls #selector {
+	margin:10px 0px;
+	float:left;
+	width:100%;
+}
+#mapsie .top-controls fieldset {
+	float:left;
+}
+#mapsie .message {
+	background:#27ae60;
+	color:#FFFFFF;
+	padding:1%;
+	line-height:20px;
+	font-size:14px;
+}
+#mapsie ul#sidebar{
+	max-width: 100%;
+	width: 100%;
+	height: 450px;
+	overflow-y: scroll;
+	overflow-x: hidden;
+	padding: 0;
+	margin: 0;
+	float:left;
+	display:block;
+	box-sizing:border-box;
+}
+#mapsie li.sidebaritem {
+	background-color: #ecf0f1;
+	margin: 0px 0px 5px 0px;
+	width: 100%;
+	position:relative;
+	color:initial;
+}
+#mapsie .sidebaritem h3 a {
+	padding:15px;
+	display: block;
+}
+#mapsie .sidebaritem a {
+	padding:0px;
+}
+#mapsie .open {
+	color: #fff;
+	background: #34495e;
+	float: right;
+	position:absolute;
+	right:0;
+	padding:  3px 5px;
+	line-height:initial;
+	font-size: 11px;
+	cursor: pointer;
+	text-align: center;
+}
+#mapsie .showpanel{
+   display: none;
+   line-height:16px;
+   font-size:12px;
+   padding:0 15px 15px;
+}
+#mapsie .showpanel span,
+#mapsie #map-canvas span {
+	font-weight:bold;
+}
+#mapsie #toggle {
+	clear:both;
+}
+#mapsie #toggle label {
+	width:25%;
+	font-size:14px;
+}
+#mapsie #toggle input {
+	width:75%;
+}
+#mapsie .map-container{
+	max-width: 100%;
+	width: 100%;
+	clear: both;
+	padding-top: 10px;
+	float: left;
+}
+#mapsie #map-canvas {
+	height: 450px;
+	width: 100%;
+	max-width: 100%;
+	float: left;
+	margin-bottom: 30px;
+}
+#mapsie #map-canvas img { 
+	max-width: none;
+	height: auto; 
+}
+#mapsie .aanmelden,
+#mapsie .add_marker{
+	background:#f39c12;
+	clear: both;
+	color:#FFFFFF;
+	max-width:350px;
+}
+#mapsie .save_marker_btn {
+	background: #27ae60;
+	font-size:13px;
+	color:#FFFFFF;
+}
+#mapsie #form #geocode_marker_btn {
+	max-width: 200px;
+}
+/* form */
+#mapsie input[type=text],
+#mapsie input[type=tel],
+#mapsie input[type=email],
+#mapsie input[type=url], 
+#mapsie textarea {
+	width: 350px;
+}
+#mapsie input, 
+#mapsie button, 
+#mapsie select, 
+#mapsie textarea{
+	font-size: inherit;
+	line-height: inherit;
+	background: #ecf0f1;
+	border: none;
+	padding:inherit;
+	height:28px;
+	text-transform: inherit;
+	font-size:14px;
+	padding:2px 8px;
+	width:auto;
+	display:inline-block;
+	margin:0;
+}
+#mapsie .layerselect{
+	min-height: 100px;
+}
+#mapsie input[type=button]{
+	background: #3498db;
+	color:#FFFFFF;
+}
+#mapsie input.postcode{
+	width: 180px;
+	padding:0px 5px;
+}
+#mapsie fieldset{
+	border:0px;
+	margin:0px;
+	padding:4px 4px;
+}
+#mapsie form input {
+	float:right;
+}
+#mapsie .close-mapsie-form .close_marker{
+	text-align: right;
+	background: #f33a12;
+	float: right;
+	color: white;
+	margin: 2px 0px;
+	height: 28px;
+	text-transform: inherit;
+	font-size: 14px;
+	padding: 4px 8px;
+	width: auto;
+	display: inline-block;
+}
+/* media queries */	
+@media screen and (min-width: 460px){
+
+	#mapsie #map-canvas {
+		width: 60%;
+	}
+	#mapsie ul#sidebar{
+		width: 40%;
+	}
+
+	@media screen and (max-width: 460px){
+
+	#mapsie #map-canvas {
+		width: 60%;
+	}
+	#mapsie ul#sidebar{
+		width: 100%;
+		max-width: 40%!important;
+	}
+	#mapsie li.sidebaritem {
+		margin: 0px 5px 5px 5px;
+	}
+}

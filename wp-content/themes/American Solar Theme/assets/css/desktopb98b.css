@@ -1,0 +1,17 @@
+@media (min-width: 993px) and (max-width: 1301px){
+	.newsinfo-image-wrapper{
+		width: 150px;
+		height: 150px;
+	}
+	#carousel-home .item-1 .carousel-caption,
+	#carousel-home .item-2 .carousel-caption{
+		left: 15px;
+	}
+}
+
+@media (min-width: 993px) and (max-width: 1080px){
+	.fold-3 .carousel-wrapper{
+		width: 840px;
+		margin: 0px auto;
+	}
+}

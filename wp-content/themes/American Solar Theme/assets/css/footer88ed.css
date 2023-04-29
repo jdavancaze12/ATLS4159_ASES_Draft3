@@ -1,0 +1,270 @@
+/* FOOTER - CSS */
+.d-table{
+	display: table;
+}
+footer{
+	background: #414042;
+}
+footer .menu-header-menu-container{
+	display: table;
+}
+footer .menu-header-menu-container .footer-menu li.menu-item-19{
+	display: none;
+}
+.pl-0{
+	padding-left: 0px !important;
+}
+.footer-list{
+	/*font-size: 0px;*/
+	padding-bottom: 25px;
+	/*width: 22%;*/
+}
+.footer-list.footer-list-2{
+	/*width: 23%;*/
+	border-right: 0px;
+	/*margin-right: -4px;*/
+}
+.footer-item-1{
+	border-right: 1px #ccc solid;
+}
+.footer-item.relative{
+	position: relative;
+}
+.footer-item{
+	/*border-right: 1px #ccc solid;*/
+	display: table-cell;
+	vertical-align: top;
+}
+.footer-list.footer-list-2 li{
+	width: 100%;
+}
+.footer-list.footer-list-2 .social-footer{
+	right: 0px;
+}
+.footer-list li{
+	vertical-align: top;
+	font: 13px RalewayR;
+	color: #ccc;
+	padding-left: 15px;
+	padding-right: 15px;
+	border-right: 1px #ccc solid;
+	/*display: inline-block;*/
+	height: auto;
+	position: relative;
+}
+.footer_top_menu{
+	margin-top: 10px;
+}
+.footer_top_menu li{
+	display: block !important;
+    border: 0px !important;
+    height: auto !important;
+    width: 100% !important;
+    padding: 0px !important;
+    margin-top: 8px;
+    margin-bottom: 8px;
+}
+.footer_top_menu li a{
+	background: none !important;
+    color: #CCC !important;
+    font: 14px RalewayB !important;
+    border-radius: 0px !important;
+    height: initial !important;
+    padding: 0 !important;
+    line-height: initial !important;
+    vertical-align: initial !important;
+    text-transform: uppercase !important;
+}
+.footer_top_menu li a:hover{
+	background: none !important;
+	color: #FFF !important;
+}
+/*.footer-list li:nth-child(1){
+	width: 25%;
+}*/
+.footer-list li:nth-child(2),
+.footer-list li:nth-child(3),
+.footer-list li:nth-child(4){
+	width: 18%;
+}
+.footer-list li:nth-child(5){
+	width: 21%;
+}
+.footer-list li:last-child{
+	border-right: 0px;
+}
+.footer-list li p{
+	margin-bottom: 0px;
+}
+.footer-list li strong{
+	font: 14px RalewayB;
+	margin-top: 8px;
+    margin-bottom: 8px;
+}
+.footer-list li h2{
+	font: 14px RalewayR;
+	color: #ccc;
+	margin-top: 15px;
+}
+.footer-list li h3{
+	font: 14px RalewayB;
+	color: #ccc;
+	margin-top: 8px;
+	margin-bottom: 8px;
+}
+.footer-list li small{
+	font-size: 12px;
+}
+.footer-list li a strong{
+	color: #ccc;
+}
+.footer-list li a:hover strong{
+	color: #FFF;
+}
+.footer-menu{
+	font-size: 0px;
+	padding-bottom: 0px;
+}
+.menu-footer-menu-container
+/*.footer-list*/ {
+	display: inline-block;
+	font-size: 0px;
+	padding-bottom: 0px;
+	border-right: 1px #ccc solid;
+}
+.menu-footer-menu-container{
+	width: 55%;
+	margin-right: -4px;
+}
+.footer-menu li{
+	vertical-align: top;
+	font: 13px RalewayR;
+	color: #ccc;
+	padding-left: 15px;
+	padding-right: 15px;
+	border-right: 1px #ccc solid;
+	display: table-cell;
+	position: relative;/*
+	width: 33.3333333333%;*/
+}
+.footer-menu li.menu-item-has-children{
+    /*height: 210px;*/
+}
+.footer-menu li.menu-item-has-children:nth-child(1){
+	/*padding-right: 40px;*/
+}
+.footer-menu li.menu-item-489.menu-item-has-children .sub-menu{
+	padding-left: 15px;
+}
+.footer-menu li .sub-menu li.Heading-Sub {
+	height: initial;
+	position: absolute;
+    bottom: 0;
+    left: 15px;
+}
+.footer-menu li .sub-menu li{
+	border-right: 0px;
+	padding-left: 0px;
+	display: block;
+	width: 100%;
+}
+.footer-menu li .sub-menu li.Menu-Btns.Heading-Sub a{
+	font-size: 0px;
+}
+.footer-menu li .sub-menu li.Menu-Btns.Heading-Sub .sub-menu a{
+	font: 14px RalewayB;
+    color: #ccc;
+    margin-top: 4px;
+    margin-bottom: 4px;
+    text-transform: uppercase;
+    display: block;
+}
+.footer-menu li .sub-menu li a,
+.footer-menu li .sub-menu li.Heading-Sub .sub-menu li a{
+	font: 13px RalewayR;
+	color: #ccc;
+	margin-top: 4px;
+    margin-bottom: 4px;
+    display: block;
+	text-transform: initial;
+}
+.footer-menu li:last-child{
+	border-right: 0px;
+}
+.footer-menu li.menu-item-has-children a,
+.footer-menu li .sub-menu li.Heading-Sub a{
+    font: 13px RalewayB;
+    color: #ccc;
+    margin-top: 8px;
+    margin-bottom: 8px;
+    text-transform: uppercase;
+    display: block;
+}
+.footer-menu li.menu-item-has-children a:hover,
+.footer-menu li .sub-menu li.Heading-Sub .sub-menu li a:hover{
+	color: #FFF;
+}
+.email-footer,
+.page-child-link{
+	color: #ccc;
+}
+.email-footer:hover,
+.page-child-link:hover{
+	color: #fff;
+}
+.page-child-link{
+	margin-top: 4px;
+	margin-bottom: 4px;
+}
+.footer-verbiage-bottom{
+	font: 13px RalewayR;
+	color: #CCC;
+	margin-bottom: 0px;
+	padding-top: 8px;
+    margin-top: 25px;
+    padding-bottom: 3em;
+    border-top: 1px #ccc solid;
+}
+.footer-verbiage-bottom a{
+	color: #FFF;
+}
+.footer-verbiage-bottom a:hover{
+	text-decoration: underline;
+}
+.absolute-bottom{
+	position: absolute;
+	bottom: 0;
+	left: 0px;
+}
+.social-footer{
+	left: initial;
+	right: 15px;
+}
+.social-footer p{
+	font: 14px RalewayB;
+	margin-bottom: 0px;
+	color: #ccc;
+}
+.social-footer a{
+	display: inline-block;
+	padding-right: 4px;
+}
+.social-footer a i{
+	color: #ccc;
+	font-size: 16px;
+}
+.social-footer a:hover i{
+	color: #FFF;
+}
+footer.comment-meta {
+    background: none;
+}
+#comments .comment {
+    margin: 10px 0;
+}
+svg.icon.icon-mail-reply {
+    display: none;
+}
+.footer-logo{
+	margin-right: 30px;
+}

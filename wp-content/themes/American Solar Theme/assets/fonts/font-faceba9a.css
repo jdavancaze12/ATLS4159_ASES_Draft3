@@ -1,0 +1,58 @@
+@font-face {
+    font-family:'RalewayR';
+    src: url('Raleway-Regular.eot');
+    src: url('Raleway-Regulard41d.eot?#iefix') format('embedded-opentype'),
+        url('Raleway-Regular.woff') format('woff'),
+        url('Raleway-Regular.ttf') format('truetype'),
+        url('Raleway-Regular.svg#RalewayR') format('svg');
+}
+@font-face {
+    font-family:'RalewayB';
+    src: url('Raleway-Bold.eot');
+    src: url('Raleway-Boldd41d.eot?#iefix') format('embedded-opentype'),
+        url('Raleway-Bold.woff') format('woff'),
+        url('Raleway-Bold.ttf') format('truetype'),
+        url('Raleway-Bold.svg#RalewayB') format('svg');
+}
+@font-face {
+    font-family:'RalewaySB';
+    src: url('Raleway-SemiBold.eot');
+    src: url('Raleway-SemiBoldd41d.eot?#iefix') format('embedded-opentype'),
+        url('Raleway-SemiBold.woff') format('woff'),
+        url('Raleway-SemiBold.ttf') format('truetype'),
+        url('Raleway-SemiBold.svg#RalewaySB') format('svg');
+}
+@font-face {
+    font-family:'RalewayM';
+    src: url('Raleway-Medium.eot');
+    src: url('Raleway-Mediumd41d.eot?#iefix') format('embedded-opentype'),
+        url('Raleway-Medium.woff') format('woff'),
+        url('Raleway-Medium.ttf') format('truetype'),
+        url('Raleway-Medium.svg#RalewayM') format('svg');
+}
+@font-face {
+    font-family:'RalewayEB';
+    src: url('Raleway-ExtraBold.eot');
+    src: url('Raleway-ExtraBoldd41d.eot?#iefix') format('embedded-opentype'),
+        url('Raleway-ExtraBold.woff') format('woff'),
+        url('Raleway-ExtraBold.ttf') format('truetype'),
+        url('Raleway-ExtraBold.svg#RalewayEB') format('svg');
+}
+@font-face {
+    font-family:'fontAwesome';
+    src: url('fontawesome-webfont.eot');
+    src: url('fontawesome-webfontd41d.eot?#iefix') format('embedded-opentype'),
+        url('fontawesome-webfont.woff') format('woff'),
+        url('fontawesome-webfont.ttf') format('truetype'),
+        url('fontawesome-webfont.svg#fontAwesome') format('svg');
+}
+/* FONT DEFAULT 
+@font-face {
+    font-family:'desiredfontnamegoeshere';
+    src: url('fontnamegoeshere.eot');
+    src: url('fontnamegoeshere.eot?#iefix') format('embedded-opentype'),
+        url('fontnamegoeshere.woff') format('woff'),
+        url('fontnamegoeshere.ttf') format('truetype'),
+        url('fontnamegoeshere.svg#desiredfontnamegoeshere') format('svg');
+}
+
